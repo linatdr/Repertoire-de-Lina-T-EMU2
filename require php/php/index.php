@@ -5,9 +5,6 @@ $nom = 'Nom';
 $prenomNom = "$prenom $nom";
 $email = strtolower($prenom . '.' . $nom . '@email.com');
 
-require "experiences.php";
-require "langues.php";
-require "interets.php";
 ?>
 <!DOCTYPE html> 
 <html lang="fr">
