@@ -1,0 +1,27 @@
+
+#Accueil .card-img-overlay h2 {
+    font-size: 2.5em; 
+    margin-bottom: 0;
+  }
+
+  #Accueil .card-img-overlay h3 {
+    font-size: 1.5em; 
+    margin-top: 0;
+  }
+
+  .image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
+  
